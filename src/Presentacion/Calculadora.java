@@ -60,11 +60,11 @@ public class Calculadora {
                     System.out.println("\n");
                     break;
                 case 5:
-                    int factorial = 1;
+                    double factorial = 1;
                     int n=0;
                     System.out.println("ingrese el numero:  ");
                     n =sc.nextInt();
-                    for (int i = 1; i <= n; i++) {
+                    for (double i = 1; i <= n; i++) {
                         factorial = factorial*i;
                     }
                    
